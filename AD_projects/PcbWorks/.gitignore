@@ -1,0 +1,16 @@
+*.Zip
+*.zip
+*.log
+*.txt
+*.htm
+
+[Hh]istory*/
+
+
+Dxp/Project Outputs for dxp/*
+
+Dxp/__Previews/*
+Dxp/Project Logs for dxp/*
+
+JLCSMT_LIB
+JLCSMT_LIB/*

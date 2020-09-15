@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/Work/ArmCpp/Core/Sys.c
+sys/stat.h
+-
+stdlib.h
+-
+errno.h
+-
+stdio.h
+-
+signal.h
+-
+time.h
+-
+sys/time.h
+-
+sys/times.h
+-
+

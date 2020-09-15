@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ArmCpp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/Work/ArmCpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/Work/ArmCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/Work/ArmCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/Work/ArmCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/Work/ArmCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/Work/ArmCpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/Work/ArmCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/Work/ArmCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/Work/ArmCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/Work/ArmCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ArmCpp.elf">
+				<Option output="/home/Work/ArmCpp/cmake-build-debug/ArmCpp.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/Work/ArmCpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/Work/ArmCpp/Core"/>
+					<Add directory="/home/Work/ArmCpp/App"/>
+					<Add directory="/home/Work/ArmCpp/MspLib"/>
+					<Add directory="/home/Work/ArmCpp/Cmd"/>
+					<Add directory="/home/Work/ArmCpp/Dev"/>
+					<Add directory="/home/Work/ArmCpp/DtLib"/>
+					<Add directory="/home/Work/ArmCpp/DtLib/DtFs"/>
+					<Add directory="/home/Work/ArmCpp/DtLib/DtOs"/>
+					<Add directory="/home/Work/ArmCpp/DtLib/DtUtil"/>
+					<Add directory="/home/Work/ArmCpp/DtLib/DtCmd"/>
+					<Add directory="/home/Work/ArmCpp/DtLib/Chip"/>
+					<Add directory="/home/Work/ArmCpp/DtLib/Math"/>
+					<Add directory="/home/Work/ArmCpp/Dsp"/>
+					<Add directory="/home/Soft/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include/c++/8.2.1"/>
+					<Add directory="/home/Soft/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include/c++/8.2.1/arm-none-eabi"/>
+					<Add directory="/home/Soft/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include/c++/8.2.1/backward"/>
+					<Add directory="/home/Soft/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.1/include"/>
+					<Add directory="/home/Soft/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.1/include-fixed"/>
+					<Add directory="/home/Soft/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/Work/ArmCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 ArmCpp.elf"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/Work/ArmCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/Work/ArmCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/Work/ArmCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ArmCpp.elf/fast">
+				<Option output="/home/Work/ArmCpp/cmake-build-debug/ArmCpp.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/Work/ArmCpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/Work/ArmCpp/Core"/>
+					<Add directory="/home/Work/ArmCpp/App"/>
+					<Add directory="/home/Work/ArmCpp/MspLib"/>
+					<Add directory="/home/Work/ArmCpp/Cmd"/>
+					<Add directory="/home/Work/ArmCpp/Dev"/>
+					<Add directory="/home/Work/ArmCpp/DtLib"/>
+					<Add directory="/home/Work/ArmCpp/DtLib/DtFs"/>
+					<Add directory="/home/Work/ArmCpp/DtLib/DtOs"/>
+					<Add directory="/home/Work/ArmCpp/DtLib/DtUtil"/>
+					<Add directory="/home/Work/ArmCpp/DtLib/DtCmd"/>
+					<Add directory="/home/Work/ArmCpp/DtLib/Chip"/>
+					<Add directory="/home/Work/ArmCpp/DtLib/Math"/>
+					<Add directory="/home/Work/ArmCpp/Dsp"/>
+					<Add directory="/home/Soft/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include/c++/8.2.1"/>
+					<Add directory="/home/Soft/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include/c++/8.2.1/arm-none-eabi"/>
+					<Add directory="/home/Soft/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include/c++/8.2.1/backward"/>
+					<Add directory="/home/Soft/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.1/include"/>
+					<Add directory="/home/Soft/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.1/include-fixed"/>
+					<Add directory="/home/Soft/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/Work/ArmCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 ArmCpp.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/Work/ArmCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/Work/ArmCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/Work/ArmCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/Work/ArmCpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/Work/ArmCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/Work/ArmCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/Work/ArmCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/Work/ArmCpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/Work/ArmCpp/App/CmdMana.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/App/CmdMana.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/App/Main.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/G0.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/G0.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/G21.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/G21.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/G28.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/G28.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/G90.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/G90.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/G91.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/G91.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/G92.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/G92.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M104.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M104.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M105.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M105.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M106.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M106.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M107.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M107.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M109.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M109.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M110.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M110.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M111.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M111.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M114.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M114.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M115.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M115.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M140.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M140.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M190.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M190.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M20.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M20.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M201.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M201.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M202.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M202.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M220.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M220.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M221.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M221.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M270.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M270.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M400.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M400.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M80.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M80.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M81.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M81.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M82.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M82.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M84.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/M84.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/T0.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/T0.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/X0.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/X0.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/X10.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Cmd/X10.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Core/Core.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Core/Core.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Core/CoreOs.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Core/CoreOs.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Core/Descriptor.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Core/Init.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Core/LinkScript.ld">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Core/Startup.s">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Core/Sys.c">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Dev/Cfg.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Dev/Cfg.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Dev/Comm.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Dev/Comm.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Dev/Dev.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Dev/Drv8711.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Dev/Drv8711.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Dev/InOut.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Dev/InOut.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Dev/Motion.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Dev/Motion.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Dev/Motor.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Dev/Motor.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Dev/Ntc.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Dev/Ntc.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Dev/Pid.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/Dev/Pid.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/DtLib/DtCmd/Command.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/DtLib/DtCmd/Command.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/DtLib/DtLib.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/DtLib/DtOs/DtCore.s">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/DtLib/DtOs/DtOs.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/DtLib/DtOs/DtOs.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/DtLib/DtOs/DtTask.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/DtLib/DtOs/DtTask.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/DtLib/DtUtil/DtList.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/DtLib/DtUtil/DtList.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/DtLib/DtUtil/DtQuere.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/DtLib/DtUtil/DtQuere.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/DtLib/DtUtil/DtText.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/DtLib/DtUtil/DtText.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/DtLib/DtUtil/TextTools.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/DtLib/DtUtil/TextTools.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/DtLib/Math/DtMath.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/DtLib/Math/DtMath.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Adc.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Adc.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Basic.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Cortex.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Cortex.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Dma.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Dma.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Flash.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Flash.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Gpio.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Gpio.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Msp.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Nvic.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Nvic.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Power.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Power.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Rcc.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Rcc.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Scb.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Scb.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Sdio.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Sdio.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Spread.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Stm32f407xx.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Tick.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Tick.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Tim.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Tim.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Usart.cpp">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/MspLib/Usart.h">
+			<Option target="ArmCpp.elf"/>
+		</Unit>
+		<Unit filename="/home/Work/ArmCpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

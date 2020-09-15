@@ -1,0 +1,174 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~125|Field=Description~String~Description~125|Field=Designator~String~Designator~125|Field=Footprint~String~Footprint~125|Field=LibRef~String~LibRef~125|Field=Pins~Integer~Pins~125|Field=Quantity~Integer~Quantity~125|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~dxp.PrjPcb|ReportField=ProjectFullPath~F:\PcbWorks\Dxp\dxp.PrjPcb|ReportField=Title~Bill of Materials For Project [dxp.PrjPcb] (No PCB Document Selected)|ReportField=ReportTime~13:07:18|ReportField=ReportDate~2019/7/16|ReportField=ReportDateTime~2019/7/16 13:07:18|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=TotalQuantity~492|ReportField=TotalActualPrice~0|ReportField=TotalTargetPrice~0|ReportField=VersionControl_RevNumber~|ReportField=VersionControl_ProjFolderRevNumber~5a3ebb907880f780060dd286fd8caf059e004826|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2019/7/16|ReportField=CurrentTime~13:07:07|ReportField=Date~|ReportField=DocumentFullPathAndName~F:\PcbWorks\Dxp\ArmPcb.SchDoc|ReportField=DocumentName~ArmPcb.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2019/4/30|ReportField=Organization~|ReportField=ProjectName~dxp.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~dxp.PrjPcb|ReportField=DataSourceFullPath~F:\PcbWorks\Dxp\dxp.PrjPcb|ReportField=PCBConfigurationName~Sources|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|BATTERY|纽扣电池|B1|BATTERY|BATTERY|2|1
+2|Bell|蜂鸣器|B1|BELL11.9|Bell|2|1
+3|104|Capacitor|C0, C1, C2|0805|C|2|3
+4|2.2nF|贴片电容|C1|0805_C|0805 2.2nF (222) 5% 50V|2|1
+5|100u|Polarized Capacitor (Axial)|C1|CM D(6.3*7.7)|Cp|2|1
+6|15pF|贴片电容|C1, C2|0603_C|0603 15pF (150) 5% 50V|2|2
+7|22p|Capacitor|C1, C2|0603|C|2|4
+8|10uF|贴片电容|C1, C2, C3, C4, C12, C13, C35, C36, C45, C51, C52, C81, C82|0805_C|0805 10uF (106) 10% 25V, 0805 10nF (103) 10% 50V|2|13
+9|220u|Polarized Capacitor (Axial)|C1, C2, C6|CM F(10*10.2)|Cp|2|3
+10|100nF(104) 10% 50V|贴片电容|C1, C4, C7|0603_C|0805 100nF(104) 10% 50V|2|3
+11|10u|Capacitor|C1, C4, C23, C24|0805|C|2|4
+12|10n|Capacitor|C2|0805|C|2|1
+13|100uF(104) 10% 50V|贴片电容|C2|0603_C|0805 100nF(104) 10% 50V|2|1
+14|104|贴片电容|C2|0603_C|0603 2.2nF (222) 10% 50V|2|1
+15|100nF|贴片电容|C2, C3, C4, C7, C8, C9, C10, C11, C20, C47, C48, C49, C50, C53, C54|0805_C|0805 2.2nF (222) 5% 50V, 0805 100nF(104) 10% 50V, 0805 10nF (103) 10% 50V, 0805 10uF (106) 10% 25V|2|17
+16|1nF(104) 10% 50V|贴片电容|C3|0603_C|0805 100nF(104) 10% 50V|2|1
+17|100uF|钽电容|C3|CASE-B_3528|3528 100uF (107) 10% 6.3V|2|1
+18|100uF (107) ±10% 6.3V|钽电容|C3|CASE-B_3528|3528 100uF (107) 10% 6.3V|2|1
+19|560p|Capacitor|C3|0805|C|2|1
+20|15p|Capacitor|C3, C4|0603|C|2|4
+21|100nF|贴片电容, [NoValue], Capacitor|C3, C4, C5, C8, C9, C10, C11, C12, C13, C14, C15, C16, C17, C18, C19, C21, C25, C26, C27, C28, C29, C30, C31, C32, C33, C34, C37, C38, C39, C40, C41, C42, C56, C57, C58, C59, C60, C61, C64, C65, C69, C70, C71, C72, C73, C74, C75, C78, C79, C80, C164, C165|0603_C|0603 100nF (104) 10% 50V, CAP|2|52
+22|104|贴片电容|C3, C6, C17|0402_C|0402 1.0uF (105) 10% 25V, 0402 470pF (471) 10% 50V|2|3
+23|10uF|Polarized Capacitor (Axial)|C4|CC6.56.5|Cp|2|1
+24|1uF(104) 10% 50V|贴片电容|C5|0603_C|0805 100nF(104) 10% 50V|2|1
+25|10uF|钽电容|C5|CASE-B_3528|3528 100uF (107) 10% 6.3V|2|1
+26|2.2u|Capacitor|C5, C6|0603|C|2|2
+27|104|Capacitor|C5, C6, C8, C9, C10, C11, C12, C13, C14, C15, C16, C17, C18, C19, C20, C21, C22, C25, C26, C27|0603|C|2|27
+28|9pF|贴片电容|C5, C6, C43, C44|0805_C|0805 10nF (103) 10% 50V|2|4
+29|12pF|贴片电容|C6, C7, C62, C63|0603_C|0603 12pF (120) 5% 50V|2|4
+30|15P|贴片电容|C7, C8|0603_C|0603 330pF (331) 5% 50V|2|2
+31|22u|Capacitor|C7, C8|0603|C|2|2
+32|10u|Capacitor|C7, C16, C17|0603|C|2|3
+33|10uF|贴片电容|C22, C66|0603_C|0603 10uF (106) 10% 10V|2|2
+34|2.2uF|贴片电容|C23, C24, C67, C68|0603_C|0603 2.2uF (225) 10% 16V|2|4
+35|10nF|贴片电容|C46|0805_C|0805 10nF (103) 10% 50V|2|1
+36|470nF|贴片电容|C55|0805_C|0805 10nF (103) 10% 50V|2|1
+37|20pF|Capacitor|C76, C77|0603_C|Cap|2|2
+38|330pF (331) 5% 50V|贴片电容|C?|0603_C|0603 330pF (331) 5% 50V|2|7
+39|100u|Polarized Capacitor (Axial)|Cp1|CM D(6.3*5.4)|Cp|2|1
+40|1N4148|Diode|D1|0603|D|2|2
+41|LED0|二极管|D1|SMC(DO-214AB)_S1|SMC(DO-214AB) SS36-E3/57T|2|1
+42|SS58|整流二极管|D1|SMA|Dz|2|1
+43|LL4148|开关二极管|D1, D2|LL-34|LL-34 LL4148 LL-34 1206|2|2
+44|红灯 0805|发光二极管|D1, D2, D3, D10, D13|0805_LED_S1|0805 红灯, 0805 翠绿|2|6
+45|翠绿 0805|发光二极管|D1, D2, D6, D7, D8, D11|0805_LED_S1|0805 翠绿|2|8
+46|LED0|发光二极管|D2|0603_LED_S1|0603 蓝灯|2|1
+47|蓝灯 0805|发光二极管|D4, D9, D12|0805_LED_S1|0805 蓝灯, 0805 翠绿|2|3
+48|绿灯 0805|发光二极管|D5|0805_LED_S1|0805 红灯|2|1
+49|HDR-1X3|3P接插件|IO1, IO2, IO3, IO4, IO5, IO6, IO7, IO8|XH2.54-LI-3P|Header 3|3|8
+50|Header 3X2|Header, 3-Pin, Dual row|J1|MHDR2X3|MHDR2X3|6|1
+51|Usba||J1|UsbA|Usba|4|1
+52|MicroUSB||J1, J2, J3, U2|USB/SM0.8-6H5|MicroUSB|5|4
+53|UsbOtg||J1, J4, J7|USB-MINI-A|UsbOtg|5|4
+54|Header 20|Header, 20-Pin|J2, J3|HDR1X20|Header 20|20|2
+55|UsbOtg||J2, J3, J8, J9|USB-MICRO_E|UsbOtg|5|4
+56|Mini-USB|Header, 5-Pin|J4|HDR1X5|Header 5|5|1
+57||Header, 10-Pin, Dual row|J5|MHDR2X10|MHDR2X10|20|1
+58|TFT|Header, 8-Pin|J6|MHDR1X8|MHDR1X8|8|1
+59|SW|Switch|K1, K2, K3, K4, K5, K6, K7, K8|SWITCH|SW|2|11
+60|2.2u||L1|L3X3MM|L|2|1
+61|L||L1|CDRH127|L|2|1
+62|Red|LED|Led1, Led2|0805|LED|2|2
+63|12V|直流电机|M1|MotorStep|MotorStep|4|1
+64|F405||M1|F405R|F405R|34|1
+65|QdLcd||M1|TFTLCD|QdLcd|34|1
+66|Esp8266||M2, M7|ESP8266|Esp8266|22|2
+67|Lm2596Mod||M2, M11|DcDc|DcDc|3|2
+68|Ov2640||M3|FPC0.5 OV2640|Ov2640|20|1
+69|Drv8711||M3, M4, M5, M6|Drv8711Mod|Drv8711Mod|15|4
+70|E104-BT02-V1.0||M4|PE104-BT02|E104-BT02-V1.0|20|1
+71|KLZB214A|zigbee to uart|M5|KLZB214A_M|KLZB214A|17|1
+72|Pl2303EVM||M6|PI230203EVM|Pl2303EVM|4|2
+73|UccMod||M7, M8, M9, M10|UccMod|UccMod|5|4
+74|Motor3F||Mo1|Motor_3F|Motor3F|3|1
+75|Header 2X10|10*2P接插件|P1|TB2.54 10x2|Header 10X2|20|1
+76|Header 2X11|19*2P接插件|P1|TB2.54 19x2|Header 19X2|38|1
+77|Header 9X2|9*2P接插件|P1|TB2.54 9x2|Header 9X2|18|1
+78|Header 17X2|Header, 17-Pin, Dual row|P1|P17X2|Header 17X2|34|1
+79|Header 5X2|Header, 5-Pin, Dual row|P1, P2, P3, P4|HDR2.54-M-LS-2x5P|Header 5X2|10|4
+80|Point||P1, P2, P3, P4|POINT|Point|1|4
+81|XH1.27A||P1, P2, P3, P4|XH1.27A|XH1.27A|30|4
+82|HDR-1X2|2P接插件|P1, P2, P3, P4, P5, P6, RT1, RT2, RT3|XH2.54-LI-2P|Header 2|2|9
+83|Power||P1, P5, P10|DC-005|Power|2|3
+84|Header 4|Header, 4-Pin|P5|HDR1X4|Header 4|4|1
+85|HDR-1X2|2P接插件|PW1, PW2|2PIN-5.08A|Header 2|2|2
+86|SI2303|N沟场效应管|Q1|SI2302|NMOS|3|1
+87|2SK3615|N沟场效应管|Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8|IRF3205|NMOS|3|9
+88|1M|Resistor|R1|0603|R|2|2
+89|100k|Potentiometer|R1|RP3362P|Rp|3|1
+90|510k|Resistor|R1|0805|R|2|1
+91|0Ω (0R0) ±1%|贴片电阻|R1, R2|0805_R|0805 0Ω (0R0) 1%|2|2
+92|4.7KΩ|贴片电阻|R1, R2|0805_R|0805 4.7KΩ (4701) 1%|2|2
+93|100|Resistor|R1, R2|0805|R|2|2
+94|10KΩ|贴片电阻|R1, R2, R25, R26, R27|0805_R|0805 10KΩ (1002) 1%|2|6
+95|1MΩ|贴片电阻|R1, R41|0603_R|0603 1MΩ (1004) 1%|2|2
+96|10K|贴片电阻, [NoValue]|R1, R174|0603_R|0603 2.2MΩ (2204) 1%, R|2|2
+97|33k|Resistor|R2|0805|R|2|1
+98|50k|Resistor|R2, R3|0603|R|2|2
+99|0Ω|贴片电阻|R2, R3, R4, R5|0805_R|0805 0Ω (0R0) 1%|2|4
+100|10k|Resistor|R2, R3, R8|0603|R|2|3
+101|100KΩ|贴片电阻|R2, R3, R40, R42|0603_R|0603 100KΩ (1003) 1%|2|4
+102|4.7k|Resistor|R3|0805|R|2|1
+103|68k|Resistor|R3|0805|R|2|1
+104|10MΩ|贴片电阻|R3, R19|0805_R|0805 10KΩ (1002) 1%|2|2
+105|16k|Resistor|R4|0805|R|2|1
+106|L|Resistor|R4|0603|R|2|1
+107|x|贴片电阻|R4|0603_R|0603 0Ω (0R0) 1%|2|1
+108|0|Resistor|R4, R5|0603|R|2|2
+109|27|Resistor|R4, R5|0805|R|2|2
+110|100KΩ|贴片电阻|R4, R5, R23, R24|0805_R|0805 10KΩ (1002) 1%|2|4
+111|0Ω|贴片电阻|R5|0603_R|0603 0Ω (0R0) 1%|2|1
+112|x|Resistor|R5, R7|0603|R|2|2
+113|1.5k|Resistor|R6|0805|R|2|1
+114|10|Resistor|R6|0603|R|2|1
+115|1KΩ|贴片电阻|R6, R7, R8, R28, R29|0805_R|0805 10KΩ (1002) 1%|2|5
+116|10Ω|贴片电阻|R6, R46|0603_R|0603 10Ω (10R0) 1%|2|2
+117|10KΩ|贴片电阻|R7|0603_R|0603 10KΩ (1002) 1%|2|1
+118|510R|贴片电阻|R8|0402_R|0402 1KΩ (1001) 1%|2|1
+119|4.7KΩ|贴片电阻|R8, R15, R16, R47|0603_R|0603 10KΩ (1002) 1%|2|4
+120|1k|Resistor|R9, R10|0603|R|2|2
+121|27Ω|贴片电阻|R9, R10, R49, R50|0603_R|0603 10KΩ (1002) 1%|2|4
+122|10R|Resistor|R11, R12|0603|R|2|2
+123|1.5KΩ|贴片电阻|R11, R48|0603_R|0603 10KΩ (1002) 1%|2|2
+124|1KΩ|贴片电阻|R12, R13, R14, R30, R31, R32, R43, R44, R45|0603_R|0603 10KΩ (1002) 1%|2|9
+125|510R|贴片电阻|R15|0805_R|0805 200Ω (2000) 1%|2|1
+126|47KΩ|贴片电阻|R17, R18, R20, R21, R22, R35, R36, R37, R38, R39|0603_R|0603 47KΩ (4702) 1%|2|10
+127|22R|贴片电阻|R18, R19|0402_R|0402 470KΩ (4703) 1%|2|2
+128|1.5K|贴片电阻|R20|0402_R|0402 470KΩ (4703) 1%|2|1
+129|500mA|贴片电阻|R21|0402_R|0402 470KΩ (4703) 1%|2|1
+130|Pending|贴片电阻|R33, R34|0805_R|0805 10KΩ (1002) 1%|2|2
+131|0|Resistor|R163, R168|0603_R|Res1|2|2
+132|100K||R164, R169, R305|0603_R|RES1|2|3
+133|1K5|Resistor|R172|0603_R|Res1|2|1
+134|[N/A]||R177|0603_R|R|2|1
+135|4K7||R178, R181|0603_R|RES1|2|2
+136|100|Resistor|R186, R187|0603_R|Res1|2|2
+137|390Ω (3900) ±1%|贴片电阻|R?|0603_R|0603 390Ω (3900) 1%|2|5
+138|Pending|Potentiometer|Rp1|RP3362P|Rp|3|1
+139|103|Potentiometer|RP1, RP2, RP3|RP3362P|Rp|3|3
+140|0.01R||Rs1, Rs2|R 2512_L|Rs|2|3
+141|SW-SPST|Single-Pole, Single-Throw Switch|S2, S?|SPST-2|SW-SPST|2|2
+142|TFCard||T1, T2|TF-CARD|TFCard|9|2
+143|TEST|测试点|TP1, TP2|R50|TEST|1|2
+144|DRV8711DCPR|Imported|U1|DCP0038A_L|DRV8711DCPR|39|1
+145|LM2596|Imported|U1|TO263|LM2596|6|1
+146|MPU6050||U1|QFN24 4x4_L|MPU6050|13|1
+147|OPA365||U1|SO-8|OPA365|5|1
+148|RT8065||U1|PSOP-8|RT8065|9|1
+149|STM32F4xxZ1|Imported|U1|LQFP144|STM32F4xxZ1|144|1
+150|STM32F4xxZ1|Imported|U1|LQFP144-20x20mm|STM32F4xxZ1|144|1
+151|STM32F407V|Imported|U1|LQFP100-14x14mm|STM32F407V|100|1
+152|UCC27511DBVR|Imported|U1|DBV0006A_N|UCC27511DBVR|6|1
+153|PL2303HXD|Driver|U1, U2, U9|SSOP28|PL2303HXD|28|3
+154|AMS1117-3.3|低压差线性稳压(LDO)|U1, VR1, VR2, VR3, VR4|SOT-223|SOT-223 AMS1117-3.3|3|7
+155|AMS1117||U2||AMS1117|3|1
+156|AMS1117||U2|SOT-89|AMS1117|3|1
+157|AMS1117-3.3||U2|AMS1117|AMS1117|4|1
+158|DCJ||U2|JACK-2_5MM_B|DCJ|3|1
+159|STM32F03xFxP|Mcu|U2, U6|TSSOP20|STM32F03xFxP|20|2
+160|IS62WV51216|外部SRAM|U3|TSOP44|IS62WV51216|44|1
+161|IS62WV51216||U3|tsop-44|IS62WV51216|44|1
+162|STM32F103C8T6|ARM, [NoValue]|U3, U15|LQFP-48_7x7x05P|STM32F103C8T6, STM32F10x(48pin)|48|2
+163|AT24C256C|EEPROM|U4|SOP8_L|AT24C256C|8|1
+164|W25Q64|W25X16;SST25VF016;MX25L1605|U4|SOIC-8|W25X16|8|1
+165|W25Q64|W25X16;SST25VF016;MX25L1605|U4|SOP8_W|W25X16|8|1
+166|EAT24C256C|EEPROM|U5|SOP8_L|AT24C256C|8|1
+167|DRV8313PWPR|Imported|U7|PWP0028F_L|DRV8313PWPR|29|1
+168|STM32F4x5RG|Mcu|U8|LQFP64|STM32F4x5RG|64|1
+169|25M|Crystal Oscillator|Y1|3225-4|XTAL|2|2
+170|8MHz|Crystal Oscillator|Y1, Y3, Y?|XTAL_US|XTAL|2|5
+171|25MHZ|贴片晶振|Y1, Y4|SMD-3225_4P|SMD-3225_4P  25MHZ 12PF 10PPM|2|2
+172|32.768|Crystal Oscillator|Y2|3215-2|XTAL|2|2
+173|32.768KHz|贴片晶振|Y2|SMD-3215_2P FC - 135|SMD-3215_2P 32.768KHz 20ppm 12.5pF|2|1
